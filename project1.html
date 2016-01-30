@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Justin McKissick</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="projecthead" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Justin McKissick</h1>
+							<p>Multidisciplinary product designer and <br> Informatics undergraduate at the University of Washington.</p>
+						</div>
+					</section>
+				<!-- Three -->
+					<section id="bio" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Hi, I'm Justin.</h2>
+							<p>I'm a product designer specializing in UI/UX from the small town of Woodinville, WA. I currently attend the University of Washington as an early-admit to the Information School studying Human-Computer Interaction. While currently sharpening my design skills, my goal in the next few years is to become just as proficient at front-end development so that I can be involved in the product creation cycle from beginning to end. When not designing, you can find me trying to get the perfect shot with my trusty Nikon p900, cheering on the Seahawks every Sunday, or out trying out coffee shops around Seattle.</p>
+						</div>
+                </section>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+                <div class="inner">
+                            <h3>Email forms are boring, so here's some links.</h3>
+                            <p>See me <span id="typed"></span></p>
+                            <!-- Typed.js -->
+                            <div id="typed-strings">
+                                <p>rant about k e r n i n g on <strong>Twitter.</strong></p>
+                                <p>push pixels on <strong>Behance.</strong></p>
+                                <p>try to act professional on <strong>LinkedIn.</strong></p>
+                                <p>eat food on <strong>FourSquare.</strong></p>
+                                <p>snap pictures of cats on <strong>Flickr.</strong></p>
+                                <p>write about terrible logo redesigns on <strong>Medium.</strong></p>
+                                <p>find uses for mason jars on <strong>Pinterest.</strong></p>
+                            </div>
+                            
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/justmckissick" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/justmckissick" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://www.behance.net/justmckissick" class="icon fa-behance"><span class="label">Behance</span></a></li>
+
+                                <!-- ALL I WANT FOR CHRISTMAS IS A DRIBBBLE INVITE <li><a href="https://dribbble.com/mckissick" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+                                <li><a href="https://www.flickr.com/photos/justmckissick" class="icon fa-flickr"><span class="label">Email</span></a></li>
+                                <li><a href="https://vine.co/u/1110838402489724928" class="icon fa-vine"><span class="label">Email</span></a></li>
+                                <li><a href="https://vine.co/u/1110838402489724928" class="icon fa-foursquare"><span class="label">Email</span></a></li>
+                                <li><a href="https://vine.co/u/1110838402489724928" class="icon fa-pinterest"><span class="label">Email</span></a></li>
+                                <li><a href="mailto:justmckissick@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script src="assets/js/typed.js"></script>
+            <script>
+                $(function(){
+                    $("#typed").typed({
+                        stringsElement: $('#typed-strings'),
+                        loop: true,
+                        typeSpeed: 40
+                    });
+                });
+            </script>
+            <script>
+            jQuery(document).ready(function(){
+                jQuery('.skillbar').each(function(){
+                    jQuery(this).find('.skillbar-bar').animate({
+                        width:jQuery(this).attr('data-percent')
+                    },6000);
+                });
+            });
+            </script>
+	</body>
+</html>
