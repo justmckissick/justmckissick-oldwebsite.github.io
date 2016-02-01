@@ -3222,7 +3222,6 @@
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
-			width: 75em;
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3278,6 +3277,31 @@
 			background-color: #fff;
 		}
 
+        .wrapper.style4 {
+			background-color: #FFF;
+        }
+            
+            .wrapper.style4 h1 {
+                color: #221A42;
+            }
+                
+            .wrapper.style4 h2 {
+                color: #221A42;
+            }
+
+            .wrapper.style4  {
+                color: #221A42;
+            }
+
+            .wrapper.style4 p {
+                color: #221A42;
+            }
+		}
+
+		.wrapper.style4-alt {
+			background-color: #fff;
+		}
+
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3298,7 +3322,7 @@
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 1280px) {
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
@@ -4054,30 +4078,46 @@
 
 /* Project */
 
-	#projecthead {
+	/* psuedo intro id, fix later */ 
+    #projecthead1 {
 		background-attachment: inherit;
-		background-image: url("../../images/recoup.png");
+		background-image: url("../../images/recoup/final5.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 	}
 
-		#projecthead p {
+		#projecthead1 p {
 			font-size: 1.25em;
 		}
 
 			@media screen and (max-width: 736px) {
 
-				#projecthead p {
+				#projecthead1 p {
 					font-size: 1em;
 				}
+                
+                #projecthead1 {
+                    background-size: 100% auto;
+                }
 
 			}
 
-		@media screen and (max-width: 1280px) {
+    #projects blockquote {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 450;
+        color: #645B87;
+    }
 
-			#projecthead{
-				background-attachment: scroll;
-			}
+    #projects h3 {
+        color: #221A42;
+    }
 
-		}
+    #projects .pro h3 {
+        color: #59c8e3;
+    }
+
+    #projects .con h3 {
+        color: #F05959;
+    }
